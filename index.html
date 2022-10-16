@@ -1,37 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igrejei</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    
-    <div class="page">
-        <div class="countdown-col col">
-            <div class="time middle">
-                <span><div id="days">12</div> Dias</span>
-                <span><div id="hours">06</div> Horas</span>
-                <span><div id="minutes">35</div> Minutos</span>
-                <span><div id="seconds">54</div> Segundos</span>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Igrejei - a benção, na palma da sua mão!</title>
+  </head>
+  <body>
+
+    <div class="container d-flex justify-content-center position-absolute top-50 start-50 translate-middle">
+        <div class="row">
+            <div class="col offset-1 d-flex align-items-center">
+                <section class="left-content">
+                    <img src="assets/images/igrejei_200.svg" alt="Igrejei">
+                    <p class="title">O canal de comunicação de sua igreja!</p>
+                    <p class="subtitle">Todos os eventos e avisos mais importantes, agora em um só lugar!</p>
+                    <img src="assets/images/undraw_play_time_-7-k7b.svg" alt="Igrejei">
+                </section>
             </div>
-        </div>
-        <div class="newsletter-col col">
-            <div class="newslatter middle">
-                <img src="assets/images/logo.png" alt="Igrejei">
-                <h2>Olá, tudo bem? Seja bem vindo!</h2>
-                <h4>Em breve, nosso projeto estará no ar. Inscreva-se e fique por dentro das novidades!</h4>
-                <form>
-                    <input type="text" placeholder="Insira seu melhor e-mail"/>
-                    <button type="button" class="newslatter-button">Inscreva-se</button>
-                </form>
+
+            <div class="col offset-1 d-flex align-items-center">
+                <section class="right-content">
+                    <a class="btn btn-outline-igrejei left-button" href="#">Criar nova conta</a>
+                    <a class="btn btn-igrejei right-button" href="#">Entrar</a>
+                </section>
             </div>
         </div>
     </div>
-    
-    <script type="text/javascript" src="assets/scripts/scripts.js"></script>
-    
-</body>
+
+    <footer>
+        <p class="text-center">Igrejei &copy; <script>document.write(new Date().getFullYear());</script> - Todos os Direitos Reservados</p>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
