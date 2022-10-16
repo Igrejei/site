@@ -73,6 +73,10 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
+.right-content {
+    margin-left: 3rem;
+}
+
 .right-content .left-button {
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -100,6 +104,22 @@ footer p {
 
     .left-content img, svg {
         margin-bottom: 2rem;
+    }
+
+    .left-content .title {
+        padding-left: 0;
+    }
+
+    .right-content {
+        margin-left: 0;
+    }
+
+    .left-content .subtitle {
+        padding-left: 0;
+    }
+
+    .right-content .left-button {
+        margin-right: 0;
     }
 }
 
