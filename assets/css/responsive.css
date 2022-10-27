@@ -1,0 +1,66 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Igrejei - Developed by Agência Star | 15/09/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 15/09/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+@import url(fonts.css);
+
+@media (max-width:768px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        min-height: 100vh;
+    }
+
+    .itemResponsive .title {
+        font-family: 'Inter-Bold', sans-serif;
+        font-size: 1.4rem;
+    }
+    
+    .itemResponsive .subtitle {
+        color: #888787;
+    }
+    
+    .itemResponsive img, svg {
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+
+    .item {
+        display:none;
+    }
+
+    .itemResponsive {
+        display: block;
+        flex: 0 0 300px;
+    }
+
+    .subtitle {
+        padding-bottom: 2rem;
+    }
+
+    .button-5 {
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+@media (max-width:960px) {
+
+    .container {
+        column-gap: 50px;
+    }
+
+}
