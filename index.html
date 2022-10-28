@@ -42,7 +42,7 @@
         </div>
 
         <div class="item column-right">
-            <a class="button-6" href="#">Criar nova conta</a>
+            <a class="button-6" href="#signup" role="button">Criar nova conta</a>
             <a class="button-5" href="#">Entrar</a>
         </div>
 
@@ -50,7 +50,7 @@
             <img src="assets/images/igrejei_200.svg" alt="Igrejei">
             <p class="title">O canal de comunicação de sua igreja!</p>
             <p class="subtitle">Todos os eventos e avisos mais importantes, agora em um só lugar!</p>
-            <a class="button-6" href="#">Criar nova conta</a>
+            <a class="button-6" href="#signup">Criar nova conta</a> 
             <a class="button-5" href="#">Entrar</a>
             <img src="assets/images/undraw_play_time_-7-k7b.svg" alt="Igrejei">
         </div>
@@ -60,6 +60,48 @@
     <footer>
         <p>Igrejei &copy; <script>document.write(new Date().getFullYear());</script> - Todos os Direitos Reservados</p>
     </footer>
+
+    <div id="signup" class="modal">
+        <div class="modal__content">
+            <h3>Cadastre-se</h3>
+            <form action="#">
+                <input type="text" placeholder="Nome" class="inputName">
+                <input type="text" placeholder="Sobrenome" class="inputName">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Nova senha">
+                
+                <h4>Data de Nascimento</h4>
+                <select name="birthday" id="birthday" class="birthday">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <select name="month" id="month" class="month">
+                    <option value="Janeiro">Janeiro</option>
+                    <option value="Fevereiro">Fevereiro</option>
+                    <option value="Março">Março</option>
+                </select>
+                <select name="year" id="year" class="year">
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                </select>
+
+
+                <h4>Gênero</h4>
+                <select name="gender" id="gender" class="selectGender">
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                </select>
+
+                <p class="formText">Ao clicar em cadastre-se, você concorda com os nossos <a href="#">Termos</a>, <a href="#">Políticas de Dados</a> e <a href="">Políticas de Cookies.</a> Você receberá confirmações por e-mail e poderá cancelar quando quiser.</p>
+
+                <a class="button-form" href="#">Cria conta</a>
+
+            </form>
+    
+            <a href="#" class="modal__close">X</a>
+        </div>
+    </div>
     
 </body>
 </html>
