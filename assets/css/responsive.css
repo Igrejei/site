@@ -54,6 +54,46 @@
         margin-bottom: 2rem;
     }
 
+    input {
+        width: 310px;
+    }
+    
+    .inputName {
+        width: 310px;
+    }
+
+    .month {
+        width: 125px;
+    }
+
+    .birthday {
+        width: 75px;
+    }
+
+    .year {
+        width: 90px;
+    }
+
+    .selectGender {
+        width: 315px;
+    }
+
+    .formText {
+        padding-left: 0.45rem;
+    }
+
+    .button-form, .button-form-login {
+        width: 323px;
+    }
+
+    .modal__content {
+        width: 325px;
+    }
+
+    .modal__content__login h3, h4 {
+        margin-bottom: 1em;
+    }
+
 }
 
 
