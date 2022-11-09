@@ -94,6 +94,10 @@
         margin-bottom: 1em;
     }
 
+    .modal__content__login form {
+        text-align: center;
+    }
+
 }
 
 

@@ -27,17 +27,126 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
     <link rel="manifest" href="assets/images/icons/site.webmanifest">
     <!-- External CSS -->
-    <link href="assets/css/site01.css" rel="stylesheet">
+    <link href="assets/css/feed.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- Font Awesome 6.2.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-    <section class="container">
-
-        <div class="item">
-            Feed de Notícias
+    <header>
+        <div class="headerLeft">
+            <img src="assets/images/igrejei_200.svg" alt="Igrejei">
         </div>
+        <div class="headerCenter">
+            <input type="text" name="pesquisar" placeholder="Pesquisar">
+        </div>
+        <div class="headerRight">
+            <a href="#"><i class="fa-regular fa-calendar-days"></i></a>
+            <a href="#"><i class="fa-regular fa-bell"></i></a>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+        </div>
+    </header>
 
+    <section class="feed">
+        <div class="feedCenter">
+            
+            <div class="shareAnything">
+                <div class="shareAnythingLeft">
+                    <img src="assets/images/user.png" alt="User">
+                </div>
+                <div class="shareAnythingRight">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Compartilhe alguma coisa"></textarea>
+                </div>
+            </div>
+
+            <div class="feedActions">
+                <div class="feedActionsLeft">
+                    <a href=""><i class="fa-regular fa-image"></i></a>
+                    <a href=""><i class="fa-solid fa-location-dot"></i></a>
+                </div>
+                <div class="feedActionsRight">
+                    <a class="button-5" href="#" role="button">Compartilhar</a>
+                </div>
+            </div>
+
+            <h3>Avisos Importantes</h3>
+
+            <div class="importantWarnings">
+                <div class="importantWarningsItem">
+                    <img src="assets/images/user.png" alt="User">
+                    <h5>O culto desta quarta feira na sede será...</h5>
+                </div>
+
+                <div class="importantWarningsItem">
+                    <img src="assets/images/user.png" alt="User">
+                    <h5>O culto desta quarta feira na sede será...</h5>
+                </div>
+            </div>
+
+            <h3>Publicações Recentes</h3>
+
+            <div class="recentPosts">
+                <div class="recentPostsItem">
+                    <div class="profile">
+                        <div class="profileLeft">
+                            <img src="assets/images/user.png" alt="User">
+                        </div>
+                        <div class="profileRight">
+                            <span>Santa Inês 1</span>
+                        </div>
+                    </div>
+
+                    <div class="contentPosts">
+                        <span>15 min. atrás</span>
+                        <h4>Logo mais grande encerramento do congresso unificado...</h4>
+                        <span>Ver mais...</span>
+                        <img src="assets/images/igrejaExemplo.jpg" alt="Exemplo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="recentPosts">
+                <div class="recentPostsItem">
+                    <div class="profile">
+                        <div class="profileLeft">
+                            <img src="assets/images/user.png" alt="User">
+                        </div>
+                        <div class="profileRight">
+                            <span>Santa Inês 1</span>
+                        </div>
+                    </div>
+
+                    <div class="contentPosts">
+                        <span>15 min. atrás</span>
+                        <h4>Logo mais grande encerramento do congresso unificado...</h4>
+                        <span>Ver mais...</span>
+                        <img src="assets/images/igrejaExemplo.jpg" alt="Exemplo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="recentPosts">
+                <div class="recentPostsItem">
+                    <div class="profile">
+                        <div class="profileLeft">
+                            <img src="assets/images/user.png" alt="User">
+                        </div>
+                        <div class="profileRight">
+                            <span>Santa Inês 1</span>
+                        </div>
+                    </div>
+
+                    <div class="contentPosts">
+                        <span>15 min. atrás</span>
+                        <h4>Logo mais grande encerramento do congresso unificado...</h4>
+                        <span>Ver mais...</span>
+                        <img src="assets/images/igrejaExemplo.jpg" alt="Exemplo">
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <footer>
